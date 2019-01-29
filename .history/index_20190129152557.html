@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>北京移动</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet/less" href="css/styles.less">
+    <script src="js/less-1.7.0.min.js"></script>
+</head>
+<body>
+    <section class="main">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div>
+            <div>
+                <input type="number" pattern="[0-9]*" oninput="if(value.length>11)value=value.slice(0,11)" placeholder="手机号码">
+            </div>
+            <div>
+                <input type="text" placeholder="填写验证码">
+                <input id="codeBtn" type="button" value="获取验证码">
+            </div>
+            <a href=""></a>
+            <a href="">了解更多产品内容</a>
+        </div>
+    </section>
+
+
+    <!-- 了解更多产品弹窗 -->
+
+    <!-- 遮罩层 -->
+    <section class="mask" id="mask"></section>
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/index.js"></script>
